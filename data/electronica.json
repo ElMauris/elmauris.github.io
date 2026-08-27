@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1,
+    "nivel": "I",
+    "nombre": "Informatica I",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 2,
+    "nivel": "I",
+    "nombre": "Algebra y Geometria Analitica",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 3,
+    "nivel": "I",
+    "nombre": "Analisis Matematico I",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 4,
+    "nivel": "I",
+    "nombre": "Ingenieria y Sociedad",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 5,
+    "nivel": "I",
+    "nombre": "Quimica General",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 6,
+    "nivel": "I",
+    "nombre": "Fisica I",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 7,
+    "nivel": "I",
+    "nombre": "Ingenieria Electronica",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 8,
+    "nivel": "II",
+    "nombre": "Informatica II",
+    "correlativas_cursada": [1, 2, 3, 7],
+    "correlativas_final": []
+  },
+  {
+    "id": 9,
+    "nivel": "II",
+    "nombre": "Tecnicas Digitales I",
+    "correlativas_cursada": [1, 7],
+    "correlativas_final": [2]
+  },
+  {
+    "id": 10,
+    "nivel": "II",
+    "nombre": "Analisis Matematico II",
+    "correlativas_cursada": [2, 3],
+    "correlativas_final": []
+  },
+  {
+    "id": 11,
+    "nivel": "II",
+    "nombre": "Fisica II",
+    "correlativas_cursada": [3, 6],
+    "correlativas_final": []
+  },
+  {
+    "id": 12,
+    "nivel": "II",
+    "nombre": "Probabilidad y Estadistica",
+    "correlativas_cursada": [2, 3],
+    "correlativas_final": []
+  },
+  {
+    "id": 13,
+    "nivel": "II",
+    "nombre": "Dispositivos Electronicos",
+    "correlativas_cursada": [1, 3, 5],
+    "correlativas_final": []
+  },
+  {
+    "id": 14,
+    "nivel": "II",
+    "nombre": "Calculo Numerico",
+    "correlativas_cursada": [1, 3, 7],
+    "correlativas_final": []
+  },
+  {
+    "id": 15,
+    "nivel": "II",
+    "nombre": "Ingles I",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 16,
+    "nivel": "III",
+    "nombre": "Teoria de los Circuitos I",
+    "correlativas_cursada": [10, 11],
+    "correlativas_final": [3, 6]
+  },
+  {
+    "id": 17,
+    "nivel": "III",
+    "nombre": "Analisis de Senales y Sistemas",
+    "correlativas_cursada": [10],
+    "correlativas_final": [2, 3]
+  },
+  {
+    "id": 18,
+    "nivel": "III",
+    "nombre": "Diseno Asistido por Computadora",
+    "correlativas_cursada": [],
+    "correlativas_final": []
+  },
+  {
+    "id": 19,
+    "nivel": "III",
+    "nombre": "Fisica Electronica",
+    "correlativas_cursada": [11],
+    "correlativas_final": [2, 3, 6]
+  },
+  {
+    "id": 20,
+    "nivel": "III",
+    "nombre": "Seguridad, Higiene y Medio Ambiente",
+    "correlativas_cursada": [],
+    "correlativas_final": [4, 5]
+  },
+  {
+    "id": 21,
+    "nivel": "III",
+    "nombre": "Electronica Aplicada I",
+    "correlativas_cursada": [5, 11],
+    "correlativas_final": [1, 3, 6, 7]
+  },
+  {
+    "id": 22,
+    "nivel": "III",
+    "nombre": "Medios de Enlace",
+    "correlativas_cursada": [10, 11],
+    "correlativas_final": [2, 3, 6]
+  },
+  {
+    "id": 23,
+    "nivel": "III",
+    "nombre": "Ingles II",
+    "correlativas_cursada": [],
+    "correlativas_final": [15]
+  },
+  {
+    "id": 24,
+    "nivel": "IV",
+    "nombre": "Tecnicas Digitales II",
+    "correlativas_cursada": [8, 9, 21],
+    "correlativas_final": [5, 11]
+  },
+  {
+    "id": 25,
+    "nivel": "IV",
+    "nombre": "Medidas Electronicas I",
+    "correlativas_cursada": [9, 16, 17, 21],
+    "correlativas_final": [5, 10, 11]
+  },
+  {
+    "id": 26,
+    "nivel": "IV",
+    "nombre": "Teoria de los Circuitos II",
+    "correlativas_cursada": [16, 17],
+    "correlativas_final": [10, 11]
+  },
+  {
+    "id": 27,
+    "nivel": "IV",
+    "nombre": "Maquinas e Instalaciones...",
+    "correlativas_cursada": [16, 17],
+    "correlativas_final": [10, 11]
+  },
+  {
+    "id": 28,
+    "nivel": "IV",
+    "nombre": "Sistemas de Comunicaciones",
+    "correlativas_cursada": [12, 17, 21, 22],
+    "correlativas_final": [10, 11]
+  },
+  {
+    "id": 29,
+    "nivel": "IV",
+    "nombre": "Electronica Aplicada II",
+    "correlativas_cursada": [13, 16, 17, 19, 21],
+    "correlativas_final": [10, 11, 15]
+  },
+  {
+    "id": 30,
+    "nivel": "IV",
+    "nombre": "Legislacion",
+    "correlativas_cursada": [8],
+    "correlativas_final": [15]
+  },
+  {
+    "id": 31,
+    "nivel": "V",
+    "nombre": "Tecnicas Digitales III",
+    "correlativas_cursada": [22],
+    "correlativas_final": [8, 9, 21]
+  },
+  {
+    "id": 32,
+    "nivel": "V",
+    "nombre": "Medidas Electronicas II",
+    "correlativas_cursada": [24, 25, 28, 29],
+    "correlativas_final": [9, 16, 18, 19, 21, 23]
+  },
+  {
+    "id": 33,
+    "nivel": "V",
+    "nombre": "Sistemas de Control",
+    "correlativas_cursada": [27, 28],
+    "correlativas_final": [16, 19]
+  },
+  {
+    "id": 34,
+    "nivel": "V",
+    "nombre": "Electronica Aplicada III",
+    "correlativas_cursada": [26, 27, 29],
+    "correlativas_final": [9, 19, 21]
+  },
+  {
+    "id": 35,
+    "nivel": "V",
+    "nombre": "Tecnologia Electronica",
+    "correlativas_cursada": [25],
+    "correlativas_final": [9, 19, 21]
+  },
+  {
+    "id": 36,
+    "nivel": "V",
+    "nombre": "Electronica de Potencia",
+    "correlativas_cursada": [25, 27, 29],
+    "correlativas_final": [9, 19, 21]
+  },
+  {
+    "id": 37,
+    "nivel": "V",
+    "nombre": "Organizacion Industrial",
+    "correlativas_cursada": [30],
+    "correlativas_final": []
+  },
+  {
+    "id": 38,
+    "nivel": "VI",
+    "nombre": "Economia",
+    "correlativas_cursada": [8],
+    "correlativas_final": [4]
+  },
+  {
+    "id": 39,
+    "nivel": "VI",
+    "nombre": "Proyecto Final",
+    "correlativas_cursada": [31, 32, 34],
+    "correlativas_final": []
+  }
+]
