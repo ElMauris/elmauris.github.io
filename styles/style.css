@@ -16,5 +16,10 @@ body {
  .logo_index{
     width: 500px;
     height: auto;
+    display: block; /* convierte en un bloque independiente */
+    margin-left: 50; 
+    margin-right: auto; 
+    margin-top: 0; /* Opcional: define la distancia desde el borde superior */
 }
+
 
