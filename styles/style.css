@@ -1,0 +1,20 @@
+body {
+  background-image: url('/img/posible_fondo1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ .logo_index{
+    width: 500px;
+    height: auto;
+}
+
