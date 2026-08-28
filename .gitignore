@@ -74,6 +74,8 @@ web_modules/
 .tmp.driveupload/  
 desktop.ini
 
+img/planes-estudio
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
