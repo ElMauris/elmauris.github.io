@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="poppins-medium" lang="es_ar">
     <head>
+
         <meta charset="utf-8" />
         <link href="styles/style.css" rel="stylesheet" type="text/css" /> <!-- linkeo css a html-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,21 +10,47 @@
         <!-- https://fonts.google.com/selection/embed pagina de la fuente -->
         <title>Plan de estudios UTN FRA</title>
         <link rel="shortcut icon" href="img/UTN_logo1.ico" type="image/x-icon">
-
+        
     </head>
+
+
     <body>
-    <img src="img/logo_index.webp" class="logo_index" alt="logo_FRA_2023">
-    <p>
+
+        <div>
+            <button id="FRA" class="FRA">
+                
+                <img src="img/logo_index.webp" class="logo_index" alt="logo_FRA_2023">
+            </button>
+        </div>
+        
+    <h2>
         ¿En qué carrera de la UTN FRA te encontrás cursando?
-    </p>
+    </h2>
+
     <div>
-    <button id="selec-carrera">
-        Seleccione su carrera
-    </button>
+        <button id="selec-carrera">
+            Seleccione su carrera
+        </button>
     </div>
+
     <div id="carrera-disp" class="oculto">
         <button id="electronica">
             Ingeniería electrónica
+        </button>
+                <button id="civil">
+            Ingeniería civil
+        </button>   
+        <button id="electrica">
+            Ingeniería energia electrica
+        </button>
+        <button id="industrial">
+            Ingeniería industrial
+        </button>
+        <button id="mecanica">
+            Ingeniería mecanica
+        </button>
+        <button id="quimica">
+            Ingeniería quimica
         </button>
     </div>
     <div id="selec-modo" class="oculto">
@@ -57,9 +84,12 @@
 
         </a>
     </footer>
-    <script>
-        
-    </script>
+
+    <script src="/scripts/declaraciones-glosario.js"></script>
+    <script src="/scripts/pag-oficial.js"></script>
+    <script src="/scripts/boton-inicio.js"></script>
+    <script src="/scripts/selector-carrera.js"></script>
+    <script src="/scripts/selector-modo.js"></script>
     </body>
 
 </html>

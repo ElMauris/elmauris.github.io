@@ -10,9 +10,9 @@ Fase 1 (Actual): Carreras de Ingeniería
 
 🟡 **Ingeniería Electrónica**
 
-🔴 **Ingeniería Civil** 
-
 🔴 **Ingeniería en Energía Eléctrica**
+
+🔴 **Ingeniería Civil** 
 
 🔴 **Ingeniería Industrial**
 

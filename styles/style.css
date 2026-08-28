@@ -11,19 +11,28 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+ .FRA {
+  background-color: transparent;
+  border: none;
+ }
 
  .logo_index{
     width: 500px;
     height: auto;
     display: block; /* convierte en un bloque independiente */
-    margin-left: 50; 
+    margin-left: 50px; 
     margin-right: auto; 
     margin-top: 0; /* Opcional: define la distancia desde el borde superior */
 }
-
+button {
+    cursor: pointer;               /* Hace que aparezca la "manito" al pasar el mouse */
+    color: #333;
+}
 
 .oculto{
   display: none;
 }
 
+.tabla {
+  background-color: white;
+}

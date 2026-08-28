@@ -73,6 +73,9 @@ web_modules/
 # ignora los temporales de drive  
 .tmp.driveupload/  
 desktop.ini
+.tmp.drivedownload/
+/copia-textoplano
+
 
 img/planes-estudio
 
